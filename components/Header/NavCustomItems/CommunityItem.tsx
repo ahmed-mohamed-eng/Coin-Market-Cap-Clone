@@ -30,7 +30,7 @@ const items: ItemsLinks[] = [
 
 const CommunityItem = () => {
   return (
-    <NavItem title="Exchanges">
+    <NavItem title="Community">
       <div className="p-4">
         <NavItemGroup items={items} />
       </div>
