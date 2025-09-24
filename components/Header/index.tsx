@@ -4,6 +4,7 @@ import Image from "next/image";
 
 import DexScanItem from "./NavCustomItems/DexScanItem";
 import CryptoNavItem from "./NavCustomItems/CryptoNavItem";
+import ExchangesItem from "./NavCustomItems/ExchangesItem";
 
 const Header = () => {
   return (
@@ -24,6 +25,7 @@ const Header = () => {
         <nav className="flex items-center space-x-4 h-full">
           <CryptoNavItem />
           <DexScanItem />
+          <ExchangesItem />
         </nav>
       </div>
 

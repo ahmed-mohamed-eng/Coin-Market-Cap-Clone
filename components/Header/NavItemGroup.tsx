@@ -9,8 +9,12 @@ export interface NavItemGroupProps {
 
 const NavItemGroup = ({ title, items }: NavItemGroupProps) => {
   return (
-    <div className="flex flex-col space-y-6 w-full">
-      {title ? <p className="text-gray-400 font-bold w-full">{title}</p> : null}
+    <div className="flex flex-col w-full">
+      {title ? (
+        <p className="text-gray-400 font-bold w-full whitespace-nowrap">
+          {title}
+        </p>
+      ) : null}
       <div className="flex flex-col w-full">
         {items?.map((/**ItemProps*/ ip, idx) => {
           return (
