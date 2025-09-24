@@ -23,7 +23,7 @@ const NavItemLink = ({ imgSrc, title, linkUrl }: NavItemLinkProps) => {
         />
       </div>
 
-      <Link href={linkUrl} className="text-sm font-bold">
+      <Link href={linkUrl} className="text-sm font-bold whitespace-nowrap">
         {title}
       </Link>
     </div>
